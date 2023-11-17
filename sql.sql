@@ -18,7 +18,7 @@ CREATE TABLE teacher_table (
    );
 
 CREATE TABLE word (
-    word_id int NOT null PRIMARY KEY,
+    word_id int AUTO_INCREMENT PRIMARY KEY,
     word_name varchar(20) NOT null,
     word_hiragana varchar(40) NOT null
 );
